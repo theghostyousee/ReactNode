@@ -1,0 +1,213 @@
+.mynodes {
+  background-color: black;
+  width: 88%;
+  height: 30%;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.myheader {
+  width: 97%;
+  height: 20%;
+  color: #f7f7f7;
+  font-size: max(calc(12 * var(--res)), 10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myheader button {
+  display: flex;
+  background: linear-gradient(to right, #6B52A0, #7370c2);
+  backdrop-filter: blur(5px);
+  border: none;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 14px;
+  min-width: 150px;
+  cursor: pointer;
+  color: #fff;
+  font-size: max(calc(14 * var(--res)), 11px);
+  font-weight: 700;
+  width: 30%;
+
+  min-width: 80px;
+  height: max(calc(35 * var(--res)), 46px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.mycontent {
+  width: 100%;
+  height: 80%;
+  color: #f7f7f7;
+  background-color: #17171b;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.ranger {
+  display: flex;
+  width: 95%;
+  font-size: max(calc(17 * var(--res)), 13px);
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40%;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #999;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #AD5D98;
+  box-shadow: 0 0 5px #AD5D98;
+  border-color: #AD5D98;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.reste{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.contour{
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 2vmin;
+    align-items: center;
+    font-size: max(calc(12 * var(--res)), 10px);
+    height: 40%;
+    border: 3px solid #AD5D98;
+}
+
+.contour img{
+
+  filter: invert(46%) sepia(16%) saturate(1502%) hue-rotate(263deg) brightness(92%) contrast(86%);
+  width: max(calc(24 * var(--res)), 20px);
+}
+
+
+@media screen and (max-width:376px) {
+
+
+  .Main .Wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 94%;
+    width: 98%;
+    z-index: 1;
+    border-radius: 28px;
+  }
+
+
+
+  .mynodes {
+    background-color: black;
+    width: 92%;
+    height: 20%;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .myheader {
+    width: 92%;
+    height: 20%;
+    font-size: max(calc(12 * var(--res)), 10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .myheader button {
+    display: flex;
+    border: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 14px;
+    min-width: 150px;
+    cursor: pointer;
+    font-size: max(calc(14 * var(--res)), 9px);
+    font-weight: 700;
+    width: 30%;
+  
+    min-width: 80px;
+    height: max(calc(25 * var(--res)), 36px);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .mycontent {
+    width: 97%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .ranger {
+    display: flex;
+    width: 95%;
+    font-size: max(calc(13 * var(--res)), 10px);
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40%;
+  }
+
+  .reste{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+  }
+
+  .contour{
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 2vmin;
+    align-items: center;
+    font-size: max(calc(12 * var(--res)), 10px);
+    height: 80%;
+}
+
+  
+
+
+}
