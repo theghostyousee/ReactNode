@@ -48,7 +48,7 @@
   color: #fff;
   font-size: max(calc(14 * var(--res)), 11px);
   font-weight: 700;
-  width: max(calc(195 * var(--res)), 116px);
+  width: max(calc(195 * var(--res)), 400px);
   min-width: 80px;
   height: max(calc(35 * var(--res)), 46px);
   transition: transform 0.2s ease-in-out;
@@ -250,7 +250,7 @@
     cursor: pointer;
     font-size: max(calc(14 * var(--res)), 11px);
     font-weight: 700;
-    width: max(calc(145 * var(--res)), 116px);
+    width: max(calc(145 * var(--res)), 206px);
     min-width: 80px;
     height: max(calc(35 * var(--res)), 46px);
     transition: transform 0.2s ease-in-out;
