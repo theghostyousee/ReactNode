@@ -188,7 +188,7 @@
     justify-content: start;
     display: flex;
     align-items: center;
-    gap: 1vmin;
+    gap: 3vmin;
 
     font-size: max(calc(14 * var(--res)), 14px);
   }
