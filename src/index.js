@@ -11,15 +11,15 @@ import Dashboard from './Components/Dashboard/Dashboard.js';
 import reportWebVitals from './reportWebVitals';
 
 import { configureChains, createClient, WagmiConfig } from 'wagmi';
-import { arbitrum, goerli, mainnet, optimism, polygon } from 'wagmi/chains';
+import { zkSync, zkSyncTestnet, mainnet, optimism, polygon } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import '@rainbow-me/rainbowkit/styles.css';
 
 const { chains, provider, webSocketProvider } = configureChains(
   [
-    arbitrum,
-    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [goerli] : []),
+    zkSync,
+    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [zkSyncTestnet] : []),
   ],
   [publicProvider()]
 );
