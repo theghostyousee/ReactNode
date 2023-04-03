@@ -2,7 +2,7 @@ import "./Hamburger.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {useRef} from "react";
 import Telegram from "../../SVG/Telegram.svg";
-import Logo from "../../SVG/Logo.svg";
+import Logo from "../../SVG/ghost.png";
 import Chart from "../../SVG/Chart.svg";
 import Twitter from "../../SVG/Twitter.svg";
 import { Link } from 'react-router-dom';
