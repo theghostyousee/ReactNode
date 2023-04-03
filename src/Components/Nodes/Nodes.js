@@ -30,7 +30,7 @@ function Nodes(props) {
 
         <div className="stats">
           <div className="stats-title">
-            <h1>Koru Nodes</h1>
+            <h1>Ghost Nodes</h1>
           </div>
           <div className="wrap-cards">
             <div className="card">
@@ -56,7 +56,7 @@ function Nodes(props) {
             <div className="card">
               <div className="card-title">
                 <img src={Scale} alt="Price"></img>
-                <h4>My $KORU Balance</h4>
+                <h4>My $GHOST Balance</h4>
               </div>
               <div className="card-content">
                 <h2>- -</h2>

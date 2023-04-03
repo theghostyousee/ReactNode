@@ -47,7 +47,7 @@ function MyNodes(props) {
             <div className="card">
               <div className="card-title">
                 <img src={Scale} alt="Price"></img>
-                <h4>My $KORU Balance</h4>
+                <h4>My $GHOST Balance</h4>
               </div>
               <div className="card-content">
                 <h2>- -</h2>
@@ -59,7 +59,7 @@ function MyNodes(props) {
         <div className="mynodes">
             <div className="myheader">
 
-                <h2>My Koru Nodes</h2>
+                <h2>My Ghost Nodes</h2>
                 <button>Claim Selected Nodes</button>
 
             </div>

@@ -115,8 +115,9 @@
 
 .card-title img {
   width: max(calc(18 * var(--res)), 20px);
-  filter: invert(46%) sepia(16%) saturate(1502%) hue-rotate(263deg)
-    brightness(92%) contrast(86%);
+  filter: invert(29%) sepia(70%) saturate(3083%) hue-rotate(215deg) brightness(102%) contrast(110%);
+
+
 }
 
 .card-content {

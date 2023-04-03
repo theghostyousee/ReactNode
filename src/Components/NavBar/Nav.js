@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./Nav.css";
-import Logo from "../../SVG/Logo.svg";
+import Logo from "../../SVG/ghost.png";
 import Home from "../../SVG/Home.svg";
 import Node from "../../SVG/Node.svg";
 import Badge from "../../SVG/Badge.svg";
@@ -41,15 +41,15 @@ function Nav() {
           <ul>
             <li>
               <img src={Twitter} alt="home"></img>
-              <a href="https://twitter.com/KoruCompiler" target="_blank">Follow Us!</a>
+              <a href="https://twitter.com/ghost_nodes" target="_blank">Follow Us!</a>
             </li>
             <li>
               <img src={Telegram} alt="home"></img>
-              <a href="https://t.me/KoruCompiler" target="_blank">Join Telegram</a>
+              <a href="https://t.me/GhostNodes" target="_blank">Join Telegram</a>
             </li>
             <li>
               <img src={Chart} alt="home"></img>
-              <a href="https://www.dextools.io/app/en/arbitrum" target="_blank">$KORU Chart</a>
+              <a href="https://www.dextools.io/app/en/zksync" target="_blank">$GHOST Chart</a>
             </li>
           </ul>
         </div>

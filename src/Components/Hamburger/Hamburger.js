@@ -45,7 +45,7 @@ function Hamburger() {
                         </li>
                         <li>
                             <img src={Chart} alt="home"></img>
-                            <a href="App.js">$KORU</a>
+                            <a href="App.js">$GHOST</a>
                         </li>
                     </ul>
                 </div>

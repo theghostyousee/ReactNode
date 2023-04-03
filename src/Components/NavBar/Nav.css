@@ -16,7 +16,7 @@
 
 body {
 
-  background-color: #1b1a1a;
+  background-color: #1769FF;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -40,6 +40,7 @@ body {
   right: 0;
   position: absolute;
   display: flex;
+  background-color: #1769FF;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
@@ -148,9 +149,7 @@ ul li a{
   color: #F7F7F7;
 }
 
-.socials img{
-  filter: invert(46%) sepia(9%) saturate(2636%) hue-rotate(263deg) brightness(94%) contrast(88%);
-}
+
 
 
 

@@ -32,7 +32,7 @@ function Dashboard() {
             <div className="card">
               <div className="card-title">
                 <img src={Price} alt="Price"></img>
-                <h4>$KORU Price</h4>
+                <h4>$GHOST Price</h4>
               </div>
               <div className="card-content">
                 <h2>- -</h2>
@@ -90,7 +90,7 @@ function Dashboard() {
             <div className="card">
               <div className="card-title">
                 <img src={Scale} alt="Price"></img>
-                <h4>My $KORU Balance</h4>
+                <h4>My $GHOST Balance</h4>
               </div>
               <div className="card-content">
                 <h2>- -</h2>

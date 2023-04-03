@@ -20,7 +20,7 @@
 
 .myheader button {
   display: flex;
-  background: linear-gradient(to right, #6B52A0, #7370c2);
+  background: linear-gradient(to right, #2c419b, #1b15c5);
   backdrop-filter: blur(5px);
   border: none;
   justify-content: space-evenly;
@@ -72,9 +72,9 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  background-color: #AD5D98;
-  box-shadow: 0 0 5px #AD5D98;
-  border-color: #AD5D98;
+  background-color: #5d88ad;
+  box-shadow: 0 0 5px #895dad;
+  border-color: #5d98ad;
 }
 
 input[type="checkbox"]:checked::before {
@@ -107,7 +107,7 @@ input[type="checkbox"]:checked::before {
     align-items: center;
     font-size: max(calc(12 * var(--res)), 10px);
     height: 40%;
-    border: 3px solid #AD5D98;
+    border: 3px solid #5d81ad;
 }
 
 .contour img{
