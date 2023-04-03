@@ -117,7 +117,6 @@
   width: max(calc(18 * var(--res)), 20px);
   filter: invert(29%) sepia(70%) saturate(3083%) hue-rotate(215deg) brightness(102%) contrast(110%);
 
-
 }
 
 .card-content {
