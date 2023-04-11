@@ -4,6 +4,7 @@ import {useRef} from "react";
 import Telegram from "../../SVG/Telegram.svg";
 import Chart from "../../SVG/Chart.svg";
 import Twitter from "../../SVG/Twitter.svg";
+import Logo from "../../SVG/hive.svg";
 import { Link } from 'react-router-dom';
 
 
@@ -22,7 +23,7 @@ function Hamburger() {
             
             <nav ref={navRef}>
                 <div className="logo">
-                    {/* <img src={Logo} alt="Logo"></img> */}
+                    <img src={Logo} alt="Logo"></img>
                 </div>
                 <Link to="/">Dashboard</Link>
                 <Link to="/nodes">Nodes</Link>
@@ -44,7 +45,7 @@ function Hamburger() {
                         </li>
                         <li>
                             <img src={Chart} alt="home"></img>
-                            <a href="App.js">$GHOST</a>
+                            <a href="App.js">$HONEY </a>
                         </li>
                     </ul>
                 </div>
