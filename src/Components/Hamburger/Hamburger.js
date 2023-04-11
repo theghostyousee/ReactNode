@@ -2,7 +2,6 @@ import "./Hamburger.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {useRef} from "react";
 import Telegram from "../../SVG/Telegram.svg";
-import Logo from "../../SVG/ghost.png";
 import Chart from "../../SVG/Chart.svg";
 import Twitter from "../../SVG/Twitter.svg";
 import { Link } from 'react-router-dom';
@@ -23,7 +22,7 @@ function Hamburger() {
             
             <nav ref={navRef}>
                 <div className="logo">
-                    <img src={Logo} alt="Logo"></img>
+                    {/* <img src={Logo} alt="Logo"></img> */}
                 </div>
                 <Link to="/">Dashboard</Link>
                 <Link to="/nodes">Nodes</Link>

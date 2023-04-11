@@ -112,7 +112,11 @@ input[type="checkbox"]:checked::before {
 
 .contour img{
 
-  filter: invert(46%) sepia(16%) saturate(1502%) hue-rotate(263deg) brightness(92%) contrast(86%);
+
+  
+  filter: invert(5%) sepia(85%) saturate(2173%) hue-rotate(212deg) brightness(909%) contrast(97%);
+
+
   width: max(calc(24 * var(--res)), 20px);
 }
 

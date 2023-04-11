@@ -16,7 +16,7 @@
 
 body {
 
-  background-color: #1769FF;
+  background-color: #091837;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -40,7 +40,7 @@ body {
   right: 0;
   position: absolute;
   display: flex;
-  background-color: #1769FF;
+  background-color: #091837;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
@@ -93,6 +93,7 @@ ul{
 
 .nav-content ul li img{
   width: max(calc(18 * var(--res)), 24px);
+  filter: invert(99%) sepia(1%) saturate(4%) hue-rotate(34deg) brightness(11001%) contrast(94%);
   display: flex;
 }
 ul li a{
@@ -144,6 +145,9 @@ ul li a{
 ul li img{
   width: max(calc(18 * var(--res)), 24px);
   display: flex;
+  filter: invert(99%) sepia(1%) saturate(4%) hue-rotate(34deg) brightness(111%) contrast(94%);
+
+  color: white;
 }
 ul li a{
   color: #F7F7F7;

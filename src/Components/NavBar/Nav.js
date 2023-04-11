@@ -1,12 +1,13 @@
 // import logo from './logo.svg';
 import "./Nav.css";
-import Logo from "../../SVG/ghost.png";
+
 import Home from "../../SVG/Home.svg";
 import Node from "../../SVG/Node.svg";
 import Badge from "../../SVG/Badge.svg";
 import Twitter from "../../SVG/Twitter.svg";
 import Chart from "../../SVG/Chart.svg";
 import Telegram from "../../SVG/Telegram.svg";
+import Logo from "../../SVG/hive.svg";
 import { Link } from 'react-router-dom';
 
 
@@ -41,15 +42,15 @@ function Nav() {
           <ul>
             <li>
               <img src={Twitter} alt="home"></img>
-              <a href="https://twitter.com/ghost_nodes" target="_blank">Follow Us!</a>
+              <a href="https://twitter.com/ZkHives" target="_blank">Follow Us!</a>
             </li>
             <li>
               <img src={Telegram} alt="home"></img>
-              <a href="https://t.me/GhostNodes" target="_blank">Join Telegram</a>
+              <a href="https://t.me/zk_Hive" target="_blank">Join Telegram</a>
             </li>
             <li>
               <img src={Chart} alt="home"></img>
-              <a href="https://www.dextools.io/app/en/zksync" target="_blank">$GHOST Chart</a>
+              <a href="https://www.dextools.io/app/en/zksync" target="_blank">$HONEY Chart</a>
             </li>
           </ul>
         </div>
