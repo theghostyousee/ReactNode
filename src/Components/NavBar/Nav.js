@@ -42,7 +42,7 @@ function Nav() {
           <ul>
             <li>
               <img src={Twitter} alt="home"></img>
-              <a href="https://twitter.com/ZkHives" target="_blank">Follow Us!</a>
+              <a href="https://twitter.com/ZkHive" target="_blank">Follow Us!</a>
             </li>
             <li>
               <img src={Telegram} alt="home"></img>

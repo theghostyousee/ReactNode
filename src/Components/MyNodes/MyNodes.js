@@ -59,7 +59,7 @@ function MyNodes(props) {
         <div className="mynodes">
             <div className="myheader">
 
-                <h2>My Ghost Nodes</h2>
+                <h2>My Hive Nodes</h2>
                 <button>Claim Selected Nodes</button>
 
             </div>
